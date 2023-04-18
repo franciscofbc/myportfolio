@@ -5,6 +5,8 @@ import { Projects } from './pages/Projects';
 import { Experience } from './pages/Experience';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { ProjectDisplay } from './pages/ProjectDisplay';
+
 import './App.css';
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/project/:id" element={<ProjectDisplay />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
           <Route path="/*" element={<h1>Page not found</h1>}></Route>
         </Routes>
