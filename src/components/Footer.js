@@ -9,6 +9,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
+        //teste
         <InstagramIcon />
         <FacebookIcon />
         <TwitterIcon />
